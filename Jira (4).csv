@@ -1,0 +1,107 @@
+Resumen,Clave de incidencia,ID de la incidencia,Tipo de Incidencia,Estado,Clave del proyecto,Nombre del proyecto,Tipo de proyecto,Responsable del proyecto,ID del responsable del proyecto,Descripción del proyecto,Prioridad,Resolución,Persona asignada,ID de la persona asignada,Informador,ID del informador,Creador,ID del creador,Creada,Actualizada,Vista por Última Vez,Resuelta,Fecha de vencimiento,Votos,Descripción,Entorno,Interesados,ID de los interesados,Estimación original,Estimación Restante,Tiempo Trabajado,Relación de trabajo,Σ Estimación original,Σ Estimación Restante,Σ Tiempo empleado,Nivel de Seguridad,Adjunto,Campo personalizado (Actual end),Campo personalizado (Actual start),Campo personalizado (Change reason),Campo personalizado (Change risk),Campo personalizado (Change type),Campo personalizado (Epic Color),Campo personalizado (Epic Name),Campo personalizado (Epic Status),Campo personalizado (Formularios abiertos),Campo personalizado (Formularios bloqueados),Campo personalizado (Formularios enviados),Campo personalizado (Impact),Campo personalizado (Issue color),Campo personalizado (Objetivos),Campo personalizado (Project overview key),Campo personalizado (Project overview status),Campo personalizado (Rank),Campo personalizado (Request Type),Campo personalizado (Sentiment),Campo personalizado (Start date),Campo personalizado (Story Points),Campo personalizado (Story point estimate),Campo personalizado (Target end),Campo personalizado (Target start),Campo personalizado (Team),Campo personalizado (Total de formularios),Campo personalizado (Vulnerability),Campo personalizado ([CHART] Date of First Response),Campo personalizado ([CHART] Time in Status),Campo personalizado (development),Categoría de estado,Categoría de estado cambiada
+Al intentar hacer un pedido sin agregar ningún platillo NO aparece un mensaje de error,UL-61,10210,Error,Tareas por hacer,UL,Urban Lunch ,software,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,,High,,,,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,25/ago/24 8:40 AM,25/ago/24 8:40 AM,25/sep/24 5:32 AM,,,0,"Pasos a seguir:
+
+# Abrir la aplicación Urban Lunch
+# Seleccionar un punto de recogida
+# Dar clic en el botón “siguiente” y aparecerá la pantalla de selección de platillos
+# Hacer el pedido sin agregar ningún platillo
+
+Resultado esperado:
+
+Al intentar hacer un pedido sin agregar ningún platillo aparece un mensaje de error
+
+Resultado actual:
+
+Al intentar hacer un pedido sin agregar ningún platillo NO aparece un mensaje de error, pero si un mensaje con la sugerencia de “elegir cualquier alimento”",Android 9.0,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,,,,,,,,,25/ago/24 8:40 AM;610be946fc68c10069fd1efe;3.png;https://andrea-del-pilar19.atlassian.net/rest/api/3/attachment/content/10094,,,,,,,,,,,,,,,,,0|i0019r:,,,,,,,,,,,,,,Por hacer,25/ago/24 8:40 AM
+Si no se permite el acceso a la geolocalización NO aparece un mensaje de error,UL-60,10209,Error,Tareas por hacer,UL,Urban Lunch ,software,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,,High,,,,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,25/ago/24 8:38 AM,25/ago/24 8:38 AM,25/ago/24 8:42 AM,,,0,"Pasos a seguir:
+
+# Abrir la aplicación Urban Lunch 
+# Aparece un mensaje para permitir el acceso a la giolocalización
+
+Resultado esperado:
+
+Si no se permite el acceso a la geolocalización aparece un mensaje de error
+
+Resultado actual:
+
+Si no se permite el acceso a la geolocalización NO aparece un mensaje de error, solamente se sale de aplicación y vuelve a donde estaba anteriormente",Android 9.0,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,,,,,,,,,25/ago/24 8:38 AM;610be946fc68c10069fd1efe;2.png;https://andrea-del-pilar19.atlassian.net/rest/api/3/attachment/content/10093,,,,,,,,,,,,,,,,,0|i0019j:,,,,,,,,,,,,,,Por hacer,25/ago/24 8:38 AM
+"En la pantalla ""El pedido ha sido entregado"" NO aparece un texto con una advertencia de que se debe recoger el pedido antes de que se enfríe",UL-54,10203,Error,Tareas por hacer,UL,Urban Lunch ,software,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,,Medium,,,,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,25/ago/24 8:35 AM,25/ago/24 8:42 AM,25/ago/24 9:17 AM,,,0,"Pasos a seguir:
+
+# Abrir la aplicación Urban Lunch 
+# Seleccionar un punto de recogida
+# Dar clic en el botón “siguiente” y aparecerá la pantalla de selección de platillos
+# Seleccionar los platillos
+# Hacer clic en el botón “siguiente” y aparecerá la pantalla de confirmación
+# Una vez verificado el pedido hacer clic en el botón “pedir” y aparecerá la pantalla de seguimiento
+# Cuando el temporizador llega a cero, aparece la pantalla “el pedido ha sido entregado”
+
+Resultado esperado:
+
+En la pantalla ""El pedido ha sido entregado"" aparece un texto con una advertencia de que se debe recoger el pedido antes de que se enfríe
+
+Resultado actual:
+
+En la pantalla ""El pedido ha sido entregado"" NO aparece un texto con una advertencia de que se debe recoger el pedido antes de que se enfríe",Android 9.0,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,,,,,,,,,25/ago/24 8:34 AM;610be946fc68c10069fd1efe;7.png;https://andrea-del-pilar19.atlassian.net/rest/api/3/attachment/content/10092,,,,,,,,,,,,,,,,,0|i00187:,,,,,,,,,,,,,,Por hacer,25/ago/24 8:35 AM
+Al entregar los platillos tanto el punto del restaurante como la ruta hasta el punto de recogida NO desaparecen del mapa,UL-44,10193,Error,Tareas por hacer,UL,Urban Lunch ,software,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,,Medium,,,,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,25/ago/24 8:29 AM,25/ago/24 8:42 AM,25/ago/24 9:16 AM,,,0,"Pasos a seguir:
+
+# Abrir la aplicación Urban Lunch 
+# Seleccionar un punto de recogida
+# Dar clic en el botón “siguiente” y aparecerá la pantalla de selección de platillos
+# Seleccionar los platillos
+# Hacer clic en el botón “siguiente” y aparecerá la pantalla de confirmación
+# Una vez verificado el pedido hacer clic en el botón “pedir” y aparecerá la pantalla de seguimiento
+# En la pantalla de seguimiento, una vez se entreguen los platillos desaparecerá tanto el punto del restaurante como la ruta hasta el punto de recogida en el mapa
+
+Resultado esperado:
+
+Cuando los platillos se entregan desde el restaurante hasta el punto de recogida, tanto el punto del restaurante como la ruta hasta el punto de recogida desaparecen del mapa en la pantalla de seguimiento
+
+Resultado actual:
+
+Cuando los platillos se entregan desde el restaurante hasta el punto de recogida, no desaparece ni el punto del restaurante ni la ruta hasta el punto de recogida en el mapa de la pantalla de seguimiento",Android 9.0,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,,,,,,,,,25/ago/24 8:29 AM;610be946fc68c10069fd1efe;6.png;https://andrea-del-pilar19.atlassian.net/rest/api/3/attachment/content/10091,,,,,,,,,,,,,,,,,0|i0015z:,,,,,,,,,,,,,,Por hacer,25/ago/24 8:29 AM
+En la pantalla de confirmación NO aparece el tiempo estimado de entrega,UL-30,10179,Error,Tareas por hacer,UL,Urban Lunch ,software,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,,Medium,,,,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,25/ago/24 8:20 AM,25/ago/24 8:41 AM,25/ago/24 9:15 AM,,,0,"Pasos a seguir:
+
+# Abrir la aplicación Urban Lunch 
+# Seleccionar un punto de recogida
+# Dar clic en el botón “siguiente” y aparecerá la pantalla de selección de platillos
+# Seleccionar los platillos
+# Hacer clic en el botón “siguiente” y aparecerá la pantalla de confirmación
+# En la pantalla de confirmación aparece el tiempo estimado de entrega
+
+Resultado esperado:
+
+En la pantalla de confirmación del pedido se encuentra el tiempo estimado de entrega
+
+Resultado actual:
+
+En la pantalla de confirmación NO aparece el tiempo estimado de entrega",Android 9.0,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,,,,,,,,,25/ago/24 8:20 AM;610be946fc68c10069fd1efe;1.png;https://andrea-del-pilar19.atlassian.net/rest/api/3/attachment/content/10090,,,,,,,,,,,,,,,,,0|i0012v:,,,,,,,,,,,,,,Por hacer,25/ago/24 8:20 AM
+El importe total muestra el precio sin incluir el costo de la entrega ,UL-29,10178,Error,Tareas por hacer,UL,Urban Lunch ,software,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,,High,,,,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,25/ago/24 8:18 AM,25/ago/24 8:41 AM,25/ago/24 8:41 AM,,,0,"Pasos a seguir: 
+
+# Abrir la aplicación Urban Lunch 
+# Seleccionar un punto de recogida 
+# Dar clic en el botón “siguiente” y aparecerá la pantalla de selección de platillos 
+# Seleccionar los platillos
+# Hacer clic en el botón “siguiente” y aparecerá la pantalla de confirmación 
+# En la pantalla de confirmación aparece el importe total del pedido
+
+Resultado esperado:
+
+El importe total muestra el precio con el costo de la entrega
+
+Resultado actual:
+
+El importe total muestra el precio pero sin incluir el costo de la entrega, unicamente aparece el costo de los platillos seleccionados",Android 9.0,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,,,,,,,,,25/ago/24 8:18 AM;610be946fc68c10069fd1efe;5.png;https://andrea-del-pilar19.atlassian.net/rest/api/3/attachment/content/10089,,,,,,,,,,,,,,,,,0|i0012n:,,,,,,,,,,,,,,Por hacer,25/ago/24 8:18 AM
+En la descripción del platillo aparece el restaurante en el que se encuentra disponible pero no se aprecia correctamente,UL-22,10171,Error,Tareas por hacer,UL,Urban Lunch ,software,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,,Medium,,,,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,25/ago/24 8:11 AM,25/ago/24 8:11 AM,25/ago/24 9:13 AM,,,0,"Pasos a seguir: 
+
+# Abrir la aplicación Urban Lunch en un dispositivo pequeño
+# Seleccionar un punto de recogida 
+# Dar clic en el botón “siguiente” y aparecerá la pantalla de selección de platillos 
+# En la descripción del platillo aparece el restaurante en el que se encuentra disponible
+
+Resultado esperado:
+
+La descripción del platillo muestra el restaurante en el que se encuentra disponible
+
+Resultado actual:
+
+La descripción del platillo muestra el restaurante en el que se encuentra disponible pero no se logra apreciar correctamente en dispositivos pequeños, debido a que se superpone con el valor del platillo",Android 9.0,Andrea del Pilar Rojas Riaño,610be946fc68c10069fd1efe,,,,,,,,,25/ago/24 8:11 AM;610be946fc68c10069fd1efe;4.png;https://andrea-del-pilar19.atlassian.net/rest/api/3/attachment/content/10088,,,,,,,,,,,,,,,,,0|i00113:,,,,,,,,,,,,,,Por hacer,25/ago/24 8:11 AM
